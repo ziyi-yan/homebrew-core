@@ -1,3 +1,17 @@
+<!--
+
+Please make sure the commit message would be as follows:
+# For new formula
+The commit message should be `<formula> <version> (new formula)`
+
+# For bump the version of the formula (also highly recommend to use `brew bump-formula-pr <formula>` command)
+The commit message should be `<formula> <version>`
+
+# For submitting a new patch for the formula
+The commit message should be `<formula>: short-description-for-the-change`
+
+ -->
+
 - [ ] Have you followed the [guidelines for contributing](https://github.com/Homebrew/homebrew-core/blob/master/CONTRIBUTING.md)?
 - [ ] Have you checked that there aren't other open [pull requests](https://github.com/Homebrew/homebrew-core/pulls) for the same formula update/change?
 - [ ] Have you built your formula locally with `brew install --build-from-source <formula>`, where `<formula>` is the name of the formula you're submitting?
