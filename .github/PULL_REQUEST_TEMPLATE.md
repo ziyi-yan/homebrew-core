@@ -1,10 +1,12 @@
 <!--
 
-Please make sure the commit message would be as follows:
-# For new formula
+Please ensure your commit message uses the correct format:
+
+# When adding a new formula
 The commit message should be `<formula> <version> (new formula)`
 
-# For bump the version of the formula (also highly recommend to use `brew bump-formula-pr <formula>` command)
+# Using `brew bump-formula-pr` to bump a version of a formula is highly recommended as it does everything for you.
+If that command doesn't work or you choose to do the version bump manually:
 The commit message should be `<formula> <version>`
 
 # For submitting a new patch for the formula
