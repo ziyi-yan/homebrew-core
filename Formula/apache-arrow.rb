@@ -67,6 +67,8 @@ class ApacheArrow < Formula
       system "make"
       system "make", "install"
     end
+
+    (lib/"cmake").install_symlink "arrow" => "parquet"
   end
 
   test do
